@@ -1,0 +1,76 @@
+
+        body{
+            background-color: skyblue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: darkgrey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li{
+            margin: 0 30px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 21px;
+            font-weight: bold;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        nav ul li a:hover{
+            background-color: aqua;
+        }
+        /*div{*/
+        /*    background-color: red;*/
+        /*    height: 100px;*/
+        /*    color: white;*/
+        /*}*/
+        .one{
+            background-color: blue;
+            height: 200px;
+        }
+        .three{
+            background-color: grey;
+            height: 50px;
+            color: blue;
+        }
+        #four{
+            background-color: rebeccapurple;
+            height: 80px;
+            color: blue;
+        }
+        #five{
+            background-color: pink;
+            height: 110px;
+            color: blue;
+        }
+
+        .background-image{
+            background-image: url("https://cdn.pixabay.com/photo/2021/02/03/23/09/hallway-5979689_640.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            border-radius: 20px;
+            margin: 20px;
+        }
+          main{
+            display: flex;
+            align-items: center;
+            padding: 0 0;
+            border-spacing: 10px;
+            border-radius: 50px;
+            border-bottom-color: darkgrey;
+        }
+
